@@ -20,18 +20,3 @@ You can check out the live demo hosted [here](https://mailchamp-poc.onrender.com
 - **Mongoose**: MongoDB object modeling for Node.js.
 - **UUID**: Generates unique identifiers for tracking emails.
 
-## Project Setup
-
-### Prerequisites
-Make sure you have the following installed on your machine:
-- **Bun**: You can install it [here](https://bun.sh/).
-- **Node.js**: [Install Node.js](https://nodejs.org/en/) if it's not already installed.
-- **TypeScript**: You can install it globally using the command `npm install -g typescript`.
-
-### Steps to Run the Project Locally
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/RajKumar9066/MailChamp-POC.git
-   cd MailChamp-POC

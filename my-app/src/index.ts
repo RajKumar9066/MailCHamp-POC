@@ -13,8 +13,8 @@ app.use(cors());
 
 //routes
 app.route('/track',trackMailRoute);
-app.route('./api',sendMailRoute);
-app.route('./status', getMailStatusRoute);
+app.route('/api',sendMailRoute);
+app.route('/status', getMailStatusRoute);
 
 dbConnect();
 export default app

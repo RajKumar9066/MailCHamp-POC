@@ -15,7 +15,7 @@ let imageBuffer: Buffer;
     }
 )();
 
-app.get('/track-mail/id', async (c) => {
+app.get('/track-mail/:id', async (c) => {
     const id = c.req.param('id');
     const userIP = c.req.raw.headers.get('true-client-ip')|| c.req.raw.headers.get('cf-connecting-ip')|| getConnInfo(c).remote.address || "0.0.0.0";
 

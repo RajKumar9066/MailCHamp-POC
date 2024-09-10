@@ -17,7 +17,7 @@ export const sendMail = async(emails: string[], trackingId: string) =>{
         html:`
         <h1> Tracking ID: ${trackingId}</h1>
         <img src="${trackingURL}" alt = "dead pixel"
-        style = "display: none;"
+        style = "display: none;"/>
         `,
     }
 
